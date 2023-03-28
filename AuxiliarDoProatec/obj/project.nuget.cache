@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "RXKO+ZsXyMKhs4htpEG8XOZgCn8Qqnmh9SIb+C+Y9cJLy8MdwDeOnxiY3j6Fqxkv72aFY8z2vhJJ6Dtv63QmZg==",
+  "success": true,
+  "projectFilePath": "D:\\workspace\\csharp\\AuxiliarDoProatec\\AuxiliarDoProatec\\AuxiliarDoProatec.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luizh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\luizh\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\luizh\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\luizh\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\luizh\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

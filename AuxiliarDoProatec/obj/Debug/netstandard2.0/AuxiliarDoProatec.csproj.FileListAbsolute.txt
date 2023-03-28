@@ -1,0 +1,18 @@
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\AuxiliarDoProatec.csproj.AssemblyReference.cache
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\AuxiliarDoProatec.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\MVVC\View\HomePage.xaml.g.cs
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\AuxiliarDoProatec.AssemblyInfoInputs.cache
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\AuxiliarDoProatec.AssemblyInfo.cs
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\AuxiliarDoProatec.csproj.CoreCompileInputs.cache
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\XamlC.stamp
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\ResourcesDictionaries\Resources.xaml.g.cs
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\MVVC\View\StudentPage.xaml.g.cs
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\bin\Debug\netstandard2.0\PROATEC APP.deps.json
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\bin\Debug\netstandard2.0\PROATEC APP.dll
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\bin\Debug\netstandard2.0\PROATEC APP.pdb
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\PROATEC APP.dll
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\refint\PROATEC APP.dll
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\PROATEC APP.pdb
+D:\workspace\csharp\AuxiliarDoProatec\AuxiliarDoProatec\obj\Debug\netstandard2.0\ref\PROATEC APP.dll

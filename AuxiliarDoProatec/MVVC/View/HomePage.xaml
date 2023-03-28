@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:vm="clr-namespace:AuxiliarDoProatec.MVVC.ViewModel"
+			 xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+			 x:Class="AuxiliarDoProatec.MVVC.View.HomePage"
+			 Visual="Material" BackgroundColor="white"
+			 NavigationPage.HasNavigationBar="False">
+	<ContentPage.BindingContext>
+		<vm:HomeVM />
+	</ContentPage.BindingContext>
+	<ContentPage.Resources>
+		<Style TargetType="ImageButton"
+			   x:Key="addCsvFile">
+			<Setter Property="VisualStateManager.VisualStateGroups">
+				<VisualStateGroupList>
+					<VisualStateGroup x:Name="CommonStates">
+						<VisualState x:Name="Normal">
+							<VisualState.Setters>
+								<Setter Property="Scale"
+										Value="1" />
+							</VisualState.Setters>
+						</VisualState>
+						<VisualState x:Name="Pressed">
+							<VisualState.Setters>
+								<Setter Property="Scale"
+										Value="1.5" />
+							</VisualState.Setters>
+						</VisualState>
+					</VisualStateGroup>
+				</VisualStateGroupList>
+			</Setter>
+		</Style>
+	</ContentPage.Resources>
+	<ContentPage.Content>
+		<Grid RowDefinitions="*, *">
+			<Entry Placeholder="Nome do aluno"
+				   HorizontalTextAlignment="Center"
+				   VerticalTextAlignment="Center"
+				   VerticalOptions="Center"
+				   Margin="15"
+				   PlaceholderColor="SlateBlue"
+				   Text="{Binding SearchStudentByName}"
+				   ClearButtonVisibility="WhileEditing" />
+			<ListView Grid.Row="1"
+					  ItemsSource="{Binding StudentsList}"
+					  SelectedItem="{Binding SelectedStudent}"
+					  ItemSelected="StudentList_ItemSelected"
+					  x:Name="studentList" HasUnevenRows="True" SeparatorVisibility="None"
+					  >
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell >
+							<Frame Margin="15" HasShadow="True">
+								<Label Text="{Binding Name}"
+									   TextColor="Black" FontSize="20" />
+							</Frame>
+						</ViewCell>
+						
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+			<StackLayout Grid.Row="1"
+						 HorizontalOptions="Center"
+						 Margin="0,40,0,0"
+						 IsVisible="{Binding IsStudentListEmpty}">
+				<Label Text="Lista vazia"
+					   HorizontalTextAlignment="Center"
+					   FontSize="20" />
+				<ImageButton BackgroundColor="Transparent"
+							 Source="icon_upload_file.png"
+							 VerticalOptions="Center"
+							 Command="{Binding OpenFileCM}"
+							 Style="{StaticResource addCsvFile}"
+							 
+						/>
+				<Label Text="Carregar arquivo"
+					   HorizontalTextAlignment="Center"
+					   FontSize="15" />
+			</StackLayout>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
